@@ -1,0 +1,12 @@
+{
+  "payloadVersion": 1,
+  "clientId": "alexa-skill",
+  "createdAt": 1561476448,
+  "deviceId": "5099803df3f4948bd2f98391",
+  "deviceAttributes": "",
+  "type": "request",
+  "action": "adjustPowerLevel",
+  "value": {
+    "powerLevelDelta": -25
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "payloadVersion": 1,
+  "clientId": "alexa-skill",
+  "createdAt": 1561476448,
+  "deviceId": "5099803df3f4948bd2f98391",
+  "deviceAttributes": "",
+  "type": "request",
+  "action": "setColor",
+  "value": {
+    "color": {
+      "r": 0,
+      "g": 0,
+      "b": 0
+    }
+  }
+}

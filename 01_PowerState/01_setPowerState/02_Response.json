@@ -2,8 +2,8 @@
   "payloadVersion": 1,
   "success": true,
   "message": "OK",
-  "ts": 1561476448,
-  "did": "5099803df3f4948bd2f98391",
+  "createdAt": 1561476448,
+  "deviceId": "5099803df3f4948bd2f98391",
   "type": "response",
   "action": "setPowerState",
   "value": {

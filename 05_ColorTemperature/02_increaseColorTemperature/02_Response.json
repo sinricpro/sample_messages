@@ -4,6 +4,8 @@
   "message": "OK",
   "createdAt": 1561476448,
   "deviceId": "5099803df3f4948bd2f98391",
+  "clientId": "alexa-skill",
+  "messageId" : "c71d3cca-180a-49b0-83ca-f5d9f0aef242",
   "type": "response",
   "action": "increaseColorTemperature",
   "value": {

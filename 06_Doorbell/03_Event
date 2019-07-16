@@ -5,7 +5,9 @@
   "deviceId": "5d21d97cb904fb33f1342e28",
   "type": "event",
   "action": "DoorbellPress",
-  "value": {},
+  "value": {
+  "state": "pressed"
+  },
   "cause": {
     "type": "PHYSICAL_INTERACTION"
   }

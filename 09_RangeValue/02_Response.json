@@ -1,0 +1,14 @@
+{
+  "payloadVersion": 1,
+  "success": true,
+  "messgae": "OK",
+  "createdAt": 1563276100,
+  "deviceId": "5d2db1057e7cb52f4c771d4e",
+  "messageId": "717b9e59-ad46-4a7c-af04-7d302db4a599",
+  "clientId": "alexa-skill",
+  "type": "response",
+  "action": "setRangeValue",
+  "value": {
+    "rangeValue": 2
+  }
+}

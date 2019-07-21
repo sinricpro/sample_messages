@@ -1,0 +1,34 @@
+{
+  "payloadVersion": 1,
+  "messageId": "cd8aceca-acf1-46c0-94d5-93d71cc13a94",
+  "clientId": "alexa-skill",
+  "createdAt": 1563269078,
+  "deviceId": "5d2d911008609a0534ad45cb",
+  "deviceAttributes": [],
+  "type": "request",
+  "action": "setTemperature",
+  "value": {
+    "temperature": 68
+  }
+}
+
+setTemperature request with optional shedule
+{
+  "payloadVersion": 1,
+  "messageId": "5d7a05c8-5233-4739-9105-27a0dc8ac67c",
+  "clientId": "alexa-skill",
+  "createdAt": 1563273914,
+  "deviceId": "5d2d9b8714f80a1f60c4e09c",
+  "deviceAttributes": [],
+  "type": "request",
+  "action": "setTemperature",
+  "value": {
+    "temperature": 25,
+    "schedule": {
+      "duration": "PT4H"
+    }
+  }
+}
+
+Duration format
+https://developer.amazon.com/docs/device-apis/alexa-property-schemas.html#duration

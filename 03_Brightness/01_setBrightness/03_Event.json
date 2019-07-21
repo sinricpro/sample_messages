@@ -1,6 +1,7 @@
 {
   "payloadVersion": 1,
   "createdAt": 1561476448,
+  "messageId": "fca894e9-9c47-4447-9313-be4475508a8d",
   "deviceId": "5099803df3f4948bd2f98391",
   "type": "event",
   "action": "setBrightness",

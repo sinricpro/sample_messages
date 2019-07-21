@@ -7,9 +7,15 @@ They are grouped by actions.
 Following devices are supported.
 
 Smart Light Bulb
+
 Smart Switch
+
 Smart Switch with Dimmer
+
 Doorbell
+
 Temperature Sensor
+
 Air Conditioning Unit
+
 Fan

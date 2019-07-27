@@ -86,3 +86,23 @@ Following devices are supported.
 *events*
     setPowerState
     setRangeValue
+
+**Motion Sensor**
+
+*actions*
+    setPowerState
+        
+*events*
+    setPowerState
+    motionDetected
+    
+**Contact Sensor**
+
+*actions*
+    setPowerState
+        
+*events*
+    setPowerState
+    setContactState
+
+

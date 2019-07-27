@@ -63,17 +63,19 @@ Following devices are supported.
     setPowerState
     setTemperature
     
-**Air Conditioning Unit**
+**Window AC Unit**
+Note: Alexa supports only US-English
 
 *actions*
     setPowerState
-    setTemperature
+    targetTemperature
     setThermostatMode
     setRangeValue
+    adjustRangeValue
     
 *events*
     setPowerState
-    setTemperature
+    targetTemperature
     setThermostatMode
     setRangeValue
 

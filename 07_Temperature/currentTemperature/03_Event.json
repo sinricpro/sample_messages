@@ -4,7 +4,7 @@
   "messageId": "fca894e9-9c47-4447-9313-be4475508a8d",
   "deviceId": "5d21d97cb904fb33f1342e28",
   "type": "event",
-  "action": "setTemperature",
+  "action": "currentTemperature",
   "value": {
     "temperature": 24.0,
     "humidity": 75.3

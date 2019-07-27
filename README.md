@@ -6,16 +6,83 @@ They are grouped by actions.
 
 Following devices are supported.
 
-Smart Light Bulb
+**Smart Light Bulb**
 
-Smart Switch
+*actions*:
+ setPowerState
+ adjustBrightness
+ setBrightness
+ setColor
+ decreaseColorTemperature
+ increaseColorTemperature
+ setColorTemperature
+ setPowerLevel
+ adjustPowerLevel
+ 
+*events* :
+ setPowerState
+ setPowerLevel 
+ setColor
+ setColorTemperature
 
-Smart Switch with Dimmer
+**Smart Switch**
 
-Doorbell
+*actions*:
+ setPowerState
+ 
+*events* :
+ setPowerState
 
-Temperature Sensor
+**Smart Switch with Dimmer**
 
-Air Conditioning Unit
+*actions*
+    setPowerState
+    setPowerLevel
+    adjustPowerLevel
+    
+*events*
+    setPowerState
+    setPowerLevel
 
-Fan
+**Doorbell**
+
+*actions*
+    setPowerState
+    
+*events* 
+    DoorbellPress
+    setPowerState
+
+**Temperature Sensor**
+
+*actions*
+    setPowerState
+    setTemperature
+    
+*events*
+    setPowerState
+    setTemperature
+    
+**Air Conditioning Unit**
+
+*actions*
+    setPowerState
+    setTemperature
+    setThermostatMode
+    setRangeValue
+    
+*events*
+    setPowerState
+    setTemperature
+    setThermostatMode
+    setRangeValue
+
+**Fan**
+
+*actions*
+    setPowerState
+    setRangeValue
+    
+*events*
+    setPowerState
+    setRangeValue

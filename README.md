@@ -64,6 +64,7 @@ Following devices are supported.
        - targetTemperature
        - setThermostatMode
        - setRangeValue
+       - currentTemperature
     
 7. **Fan** (Note: from 1 to 3)
      - *actions*

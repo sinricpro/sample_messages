@@ -56,7 +56,18 @@ Following devices are supported.
        - setPowerState
        - currentTemperature
 
-6. **Window AC Unit** (Note: Alexa supports only US-English)
+6. **Thermostat**
+     - *actions*
+       - setPowerState
+       - targetTemperature
+       - setThermostatMode       
+     - *events* :
+       - setPowerState
+       - targetTemperature
+       - setThermostatMode
+       - currentTemperature
+
+7. **Window AC Unit** (Note: Alexa supports only US-English)
      - *actions*
        - setPowerState
        - targetTemperature
@@ -70,7 +81,7 @@ Following devices are supported.
        - setRangeValue
        - currentTemperature
     
-7. **Fan** (Note: from 1 to 3)
+8. **Fan** (Note: from 1 to 3)
      - *actions*
        - setPowerState
        - setRangeValue
@@ -78,14 +89,14 @@ Following devices are supported.
        - setPowerState
        - setRangeValue
        
-8. **Motion Sensor**
+9. **Motion Sensor**
      - *actions*
        - setPowerState
      - *events* :
        - setPowerState
        - motionDetected
     
-9. **Contact Sensor**
+10. **Contact Sensor**
      - *actions*
        - setPowerState
      - *events* :

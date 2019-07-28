@@ -5,8 +5,11 @@ This directory contains sample Sinric Pro messages in JSON. They can be used to 
 They are grouped by actions. 
 
 What is an action?
+  Act of doing something using voice, app or the website
 
 What is an event ?
+  Interacting with a device physically would raise an evet.  eg: pushing a button to turn on/off a device will raise an setPowerState event to let
+  the server know.
 
 Following devices are supported.
 
@@ -103,3 +106,47 @@ Following devices are supported.
        - setPowerState
        - setContactState 
        
+11. **TV**
+     - *actions*
+       - setPowerState
+       - setVolume
+       - adjustVolume
+       - setMute
+       - mediaControl
+       - selectInput
+       - changeChannel
+       - skipChannels
+     - *events* :
+       - setPowerState
+       - setVolume 
+       - setMute
+       - mediaControl
+       - selectInput
+       - changeChannel
+       - skipChannels
+
+12. **Smart Speaker**
+     - *actions*
+       - setPowerState
+       - setVolume
+       - adjustVolume
+       - setMute
+       - mediaControl
+       - setBands
+       - adjustBands
+       - resetBands
+       - setMode
+     - *events* :
+       - setPowerState
+       - setVolume
+       - setMute
+       - mediaControl
+       - setBands
+       - resetBands
+       - setMode
+
+13. **Contact Sensor**
+     - *actions*
+       - setLockState
+     - *events* :
+       - setLockState 

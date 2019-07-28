@@ -1,0 +1,33 @@
+// Lock response
+{
+  "payloadVersion": 1,
+  "success": true,
+  "message": "OK",
+  "createdAt": 1563268782,
+  "deviceId": "5d2d911008609a0534ad45cb",
+  "messageId": "b918747c-c725-45b0-8356-547bbdfba0d6",
+  "clientId": "alexa-skill",
+  "type": "response",
+  "action":"setLockState",
+  "value":{  
+    "state":"LOCKED"
+  }
+}
+ 
+// Unlock response
+
+{
+  "payloadVersion": 1,
+  "success": true,
+  "message": "OK",
+  "createdAt": 1563268782,
+  "deviceId": "5d2d911008609a0534ad45cb",
+  "messageId": "b918747c-c725-45b0-8356-547bbdfba0d6",
+  "clientId": "alexa-skill",
+  "type": "response",
+  "action":"setLockState",
+  "value":{  
+    "state":"UNLOCKED"
+  }
+}
+ 

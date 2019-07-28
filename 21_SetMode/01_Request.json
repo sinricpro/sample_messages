@@ -1,0 +1,15 @@
+// alexa, set mode to movie on speaker
+
+{  
+    "payloadVersion":1,
+    "messageId":"34926abb-beb7-4e33-80e9-6a3c17f6f8d9",
+    "clientId":"alexa-skill",
+    "createdAt":1564320908,
+    "deviceId":"5d3d779c2bcf8047dcf4fc83",
+    "deviceAttributes":[],
+    "type":"request",
+    "action":"setMode",
+    "value":{  
+       "mode":"MOVIE"
+    }
+ }

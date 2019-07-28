@@ -145,7 +145,7 @@ Following devices are supported.
        - resetBands
        - setMode
 
-13. **Contact Sensor**
+13. **Smart Doorlock**
      - *actions*
        - setLockState
      - *events* :

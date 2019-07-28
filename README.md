@@ -4,6 +4,10 @@ This directory contains sample Sinric Pro messages in JSON. They can be used to 
 
 They are grouped by actions. 
 
+What is an action?
+
+What is an event ?
+
 Following devices are supported.
 
 1. **Smart Switch**

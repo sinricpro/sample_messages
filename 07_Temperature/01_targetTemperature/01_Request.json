@@ -1,4 +1,4 @@
-// eg: Alexa set the thermostat to 68 degrees
+// alexa, set the thermostat to 68 degrees
 
 {
   "payloadVersion": 1,
@@ -15,7 +15,7 @@
 }
 
 // targetTemperature request with optional shedule
-
+// alexa, set the thermostat to 25 degrees for 4 hours.
 {
   "payloadVersion": 1,
   "messageId": "5d7a05c8-5233-4739-9105-27a0dc8ac67c",

@@ -1,0 +1,15 @@
+// User: Alexa, set the tv volume to 25
+ 
+{  
+  "payloadVersion":1,
+  "messageId":"48cc3416-bb16-44ce-99d7-7664688bd73c",
+  "clientId":"alexa-skill",
+  "createdAt":1564292169,
+  "deviceId":"5d3d31902bcf8047dcf4fc81",
+  "deviceAttributes":[ ],
+  "type":"request",
+  "action":"setVolume",
+  "value":{  
+     "volume":25
+  }
+}

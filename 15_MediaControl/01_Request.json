@@ -1,0 +1,15 @@
+// alexa, alexa, fast forward tv
+
+{  
+  "payloadVersion":1,
+  "messageId":"eb5ab975-4939-4ba0-ad78-00d5f14b439e",
+  "clientId":"alexa-skill",
+  "createdAt":1564302175,
+  "deviceId":"5d3d31902bcf8047dcf4fc81",
+  "deviceAttributes":[],
+  "type":"request",
+  "action":"mediaControl",
+  "value":{  
+     "control":"FastForward"
+  }
+}

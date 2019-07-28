@@ -6,105 +6,84 @@ They are grouped by actions.
 
 Following devices are supported.
 
-**Smart Light Bulb**
+1. **Smart Switch**
+     - *actions*
+       - setPowerState
+     - *events* :
+       - setPowerState
+       
+2. **Smart Light Bulb**
+     - *actions*
+       - setPowerState
+       - adjustBrightness
+       - setBrightness
+       - setColor
+       - decreaseColorTemperature
+       - increaseColorTemperature
+       - setColorTemperature
+       - setPowerLevel
+       - adjustPowerLevel 
+     - *events* :
+       - setPowerState
+       - setPowerLevel 
+       - setColor
+       - setColorTemperature
 
-*actions*:
- setPowerState
- adjustBrightness
- setBrightness
- setColor
- decreaseColorTemperature
- increaseColorTemperature
- setColorTemperature
- setPowerLevel
- adjustPowerLevel
- 
-*events* :
- setPowerState
- setPowerLevel 
- setColor
- setColorTemperature
+3. **Smart Switch with Dimmer**
+     - *actions*
+       - setPowerState
+       - setPowerLevel
+       - adjustPowerLevel
+     - *events* :
+       - setPowerState
+       - setPowerLevel
 
-**Smart Switch**
+4. **Doorbell**
+     - *actions*
+       - setPowerState
+     - *events* :
+       - DoorbellPress
+       - setPowerState
+       
+5. **Temperature Sensor**
+     - *actions*
+       - setPowerState
+     - *events* :
+       - setPowerState
+       - currentTemperature
 
-*actions*:
- setPowerState
- 
-*events* :
- setPowerState
-
-**Smart Switch with Dimmer**
-
-*actions*
-    setPowerState
-    setPowerLevel
-    adjustPowerLevel
+6. **Window AC Unit** (Note: Alexa supports only US-English)
+     - *actions*
+       - setPowerState
+       - targetTemperature
+       - setThermostatMode
+       - setRangeValue
+       - adjustRangeValue
+     - *events* :
+       - setPowerState
+       - targetTemperature
+       - setThermostatMode
+       - setRangeValue
     
-*events*
-    setPowerState
-    setPowerLevel
-
-**Doorbell**
-
-*actions*
-    setPowerState
+7. **Fan** (Note: from 1 to 3)
+     - *actions*
+       - setPowerState
+       - setRangeValue
+     - *events* :
+       - setPowerState
+       - setRangeValue
+       
+8. **Motion Sensor**
+     - *actions*
+       - setPowerState
+     - *events* :
+       - setPowerState
+       - motionDetected
     
-*events* 
-    DoorbellPress
-    setPowerState
-
-**Temperature Sensor**
-
-*actions*
-    setPowerState
-    setTemperature
-    
-*events*
-    setPowerState
-    setTemperature
-    
-**Window AC Unit**
-Note: Alexa supports only US-English
-
-*actions*
-    setPowerState
-    targetTemperature
-    setThermostatMode
-    setRangeValue
-    adjustRangeValue
-    
-*events*
-    setPowerState
-    targetTemperature
-    setThermostatMode
-    setRangeValue
-
-**Fan**
-
-*actions*
-    setPowerState
-    setRangeValue
-    
-*events*
-    setPowerState
-    setRangeValue
-
-**Motion Sensor**
-
-*actions*
-    setPowerState
-        
-*events*
-    setPowerState
-    motionDetected
-    
-**Contact Sensor**
-
-*actions*
-    setPowerState
-        
-*events*
-    setPowerState
-    setContactState
-
-
+9. **Motion Sensor**
+     - *actions*
+       - setPowerState
+     - *events* :
+       - setPowerState
+       - setContactState 
+       

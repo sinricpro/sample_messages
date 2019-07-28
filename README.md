@@ -80,7 +80,7 @@ Following devices are supported.
        - setPowerState
        - motionDetected
     
-9. **Motion Sensor**
+9. **Contact Sensor**
      - *actions*
        - setPowerState
      - *events* :

@@ -4,9 +4,24 @@
   "messageId": "fca894e9-9c47-4447-9313-be4475508a8d",
   "deviceId": "5d21d97cb904fb33f1342e28",
   "type": "event",
-  "action": "motionDetected",
+  "action": "motion",
   "value": {
     "state": "detected"
+  },
+  "cause": {
+    "type": "PHYSICAL_INTERACTION"
+  }
+}
+
+{
+  "payloadVersion": 1,
+  "createdAt": 1562816501,
+  "messageId": "fca894e9-9c47-4447-9313-be4475508a8d",
+  "deviceId": "5d21d97cb904fb33f1342e28",
+  "type": "event",
+  "action": "motion",
+  "value": {
+    "state": "notDetected"
   },
   "cause": {
     "type": "PHYSICAL_INTERACTION"

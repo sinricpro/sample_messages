@@ -92,14 +92,14 @@ Following devices are supported.
        - setPowerState
        - setRangeValue
        
-9. **Motion Sensor**
+9. **Motion Sensor** (Note: Default state is "notDetected")
      - *actions*
        - setPowerState
      - *events* :
        - setPowerState
-       - motionDetected
+       - motion
     
-10. **Contact Sensor**
+10. **Contact Sensor** 
      - *actions*
        - setPowerState
      - *events* :
@@ -145,7 +145,7 @@ Following devices are supported.
        - resetBands
        - setMode
 
-13. **Smart Doorlock**
+13. **Smart Doorlock** (Note: Default state is "UNLOCKED")
      - *actions*
        - setLockState
      - *events* :

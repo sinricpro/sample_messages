@@ -1,3 +1,5 @@
+// Note: The server will send "UNLOCKED" state to the server if you have not set the state yet.
+
 // alexa, lock front door
 
 {  

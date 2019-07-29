@@ -52,7 +52,7 @@ Following devices are supported.
        - DoorbellPress
        - setPowerState
        
-5. **Temperature Sensor**
+5. **Temperature Sensor** (Note: Default is -1)
      - *actions*
        - setPowerState
      - *events* :
@@ -70,7 +70,7 @@ Following devices are supported.
        - setThermostatMode
        - currentTemperature
 
-7. **Window AC Unit** (Note: Alexa supports only US-English)
+7. **Window AC Unit** (Note: Alexa supports only US-English, Default tempreature is -1))
      - *actions*
        - setPowerState
        - targetTemperature
@@ -99,7 +99,7 @@ Following devices are supported.
        - setPowerState
        - motion
     
-10. **Contact Sensor** 
+10. **Contact Sensor**  (Note: Default state is "closed")
      - *actions*
        - setPowerState
      - *events* :

@@ -7,7 +7,7 @@
   "messageId": "717b9e59-ad46-4a7c-af04-7d302db4a599",
   "clientId": "alexa-skill",
   "type": "response",
-  "action": "setRangeValue",
+  "action": "adjustRangeValue",
   "value": {
     "rangeValue": 2
   }

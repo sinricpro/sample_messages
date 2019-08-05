@@ -7,7 +7,7 @@
   "messageId": "b918747c-c725-45b0-8356-547bbdfba0d6",
   "clientId": "alexa-skill",
   "type": "response",
-  "action": "setVolume",
+  "action": "adjustVolume",
   "value": {
     "volume":5
   }

@@ -8,7 +8,7 @@ What is an action?
   Act of doing something using voice, app or the website. When you respond to an action it must have the same message id in the original "request"
 
 What is an event ?
-  Interacting with a device physically would raise an evet.  eg: pushing a button to turn on/off a device will raise an setPowerState event to let the server know. 
+  Interacting with a device physically would raise an evet.  eg: pushing a button to turn on/off a device will raise an setPowerState event to let the server know. Unix epoch time is in seconds
 
 Following devices are supported.
 

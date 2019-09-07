@@ -1,10 +1,19 @@
 {
-  "payloadVersion": 1,
-  "clientId": "alexa-skill",
-  "createdAt": 1561476448,
-  "deviceId": "5099803df3f4948bd2f98391",
-  "deviceAttributes": "",
-  "type": "request",
-  "action": "decreaseColorTemperature",
-  "value": {}
+  "header": {
+    "payloadVersion": 2,
+    "signatureVersion": 1
+  },
+  "payload": {
+    "replyToken": "6ec1f778-e92f-487c-9818-bdbe3438f30e",
+    "clientId": "alexa-skill",
+    "createdAt": 1567852244,
+    "deviceId": "5d73a5f32570052a984817ec",
+    "deviceAttributes": [],
+    "type": "request",
+    "action": "decreaseColorTemperature",
+    "value": {}
+  },
+  "signature": {
+    "HMAC": "jjrxa5b7fzXXml2+PxlfUYIUgLdHg33Cr2yWVuzlr/s="
+  }
 }

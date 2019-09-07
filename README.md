@@ -1,16 +1,27 @@
-# sample_messages
+# sinricpro_sample_messages
 
 This directory contains sample Sinric Pro messages in JSON. They can be used to test your project to see if you are receiving or responding to the server correctly.
-
-They are grouped by actions. 
-
-What is an action?
-  Act of doing something using voice, app or the website. When you respond to an action it must have the same message id in the original "request"
-
-What is an event ?
-  Interacting with a device physically would raise an evet.  eg: pushing a button to turn on/off a device will raise an setPowerState event to let the server know. Unix epoch time is in seconds
-
+ 
+What is an *action*?
+ Act of doing something using voice, app or website will generate an action message in the system. Eg: Alexa, turn on the tv will generate setPowerState action.
+ 
+What is an *event* ?
+ Changing the device state physically should will raise an event to let the server know about the changes the user made.  Eg: pushing a button to turn on the device should send "setPowerState" event to let the server know.
+Unix epoch time used in all the messages are in seconds.
+ 
+Any message with the "createdAt" timestamp older than 1 minute from the current time will be discarded to avoid network replay attacks.
+ 
+Message's payload must signed using Hmac sha256 since protocol version 2. Here is an example code how to generate the signature HMAC using nodejs.
+ 
+function getSignature(message, appsecert) {
+   return crypto.createHmac('sha256', appsecert).update(message).digest('base64');
+}
+ 
+complete code is available in signature-hmac-example.js
+ 
 Following devices are supported.
+
+
 
 1. **Smart Switch**
      - *actions*

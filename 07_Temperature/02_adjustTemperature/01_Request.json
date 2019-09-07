@@ -1,16 +1,22 @@
 // eg: alexa, make it warmer in here
-
-{  
-  "payloadVersion":1,
-  "messageId":"1352fa56-e325-4abb-a3fd-dda3c185d9e8",
-  "clientId":"alexa-skill",
-  "createdAt":1564245895,
-  "deviceId":"5d3c5b634069fa29b877214c",
-  "deviceAttributes":[],
-  "type":"request",
-  "action":"adjustTemperature",
-  "value":{  
-     "temperature":1
-  }
+{
+   "header": {
+      "payloadVersion": 2,
+      "signatureVersion": 1
+   },
+   "payload": {
+      "replyToken": "6ec1f778-e92f-487c-9818-bdbe3438f30e",
+      "clientId": "alexa-skill",
+      "createdAt": 1567852244,
+      "deviceId": "5d737888aea17c30a056d759",
+      "deviceAttributes": [],
+      "type": "request",
+      "action": "adjustTemperature",
+      "value": {
+         "temperature": 1
+      }
+   },
+   "signature": {
+      "HMAC": "xxxx"
+   }
 }
- 

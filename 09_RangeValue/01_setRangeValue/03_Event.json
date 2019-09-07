@@ -1,14 +1,22 @@
 {
-  "payloadVersion": 1,
-  "createdAt": 1563276100,
-  "messageId": "717b9e59-ad46-4a7c-af04-7d302db4a599",
-  "deviceId": "5d2db1057e7cb52f4c771d4e",
-  "type": "event",
-  "action": "setRangeValue",
-  "value": {
-    "rangeValue": 2
-  },
-  "cause": {
-    "type": "PHYSICAL_INTERACTION"
-  }
+   "header": {
+      "payloadVersion": 2,
+      "signatureVersion": 1
+   },
+   "payload": {
+      "replyToken": "6ec1f778-e92f-487c-9818-bdbe3438f30e",
+      "createdAt": 1567852244,
+      "deviceId": "5d737888aea17c30a056d759",
+      "type": "event",
+      "action": "setRangeValue",
+      "value": {
+         "rangeValue": 2
+      },
+      "cause": {
+         "type": "PHYSICAL_INTERACTION"
+      }
+   },
+   "signature": {
+      "HMAC": "xxxxx"
+   }
 }

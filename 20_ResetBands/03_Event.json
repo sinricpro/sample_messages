@@ -1,26 +1,35 @@
 {
-  "payloadVersion": 1,
-  "createdAt": 1562816501,
-  "messageId": "fca894e9-9c47-4447-9313-be4475508a8d",
-  "deviceId": "5d21d97cb904fb33f1342e28",
-  "type": "event",
-  "action":"resetBands",
-  "value":{  
-    "bands": [
-      {
+  "header": {
+    "payloadVersion": 2,
+    "signatureVersion": 1
+  },
+  "payload": {
+    "replyToken": "6ec1f778-e92f-487c-9818-bdbe3438f30e",
+    "createdAt": 1567852244,
+    "deviceId": "5d737888aea17c30a056d759",
+    "type": "event",
+    "action": "resetBands",
+    "value": {
+      "bands": [
+        {
           "name": "BASS",
           "level": 0
-      },
-      {
+        },
+        {
           "name": "MIDRANGE",
           "level": 0
-      },
-      {
+        },
+        {
           "name": "TREBLE",
           "level": 0
-      }]
+        }
+      ]
+    },
+    "cause": {
+      "type": "PHYSICAL_INTERACTION"
+    }
   },
-  "cause": {
-    "type": "PHYSICAL_INTERACTION"
+  "signature": {
+    "HMAC": "xxxxx"
   }
-} 
+}

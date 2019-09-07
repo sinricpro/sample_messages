@@ -1,31 +1,46 @@
 // means the sensor is open and the two pieces of the sensor are not in contact with each other. For example, a window has been opened.
 {
-  "payloadVersion": 1,
-  "createdAt": 1562816501,
-  "messageId": "fca894e9-9c47-4447-9313-be4475508a8d",
-  "deviceId": "5d21d97cb904fb33f1342e28",
-  "type": "event",
-  "action": "setContactState",
-  "value": {
-    "state": "open"
+  "header": {
+    "payloadVersion": 2,
+    "signatureVersion": 1
   },
-  "cause": {
-    "type": "PHYSICAL_INTERACTION"
+  "payload": {
+    "replyToken": "6ec1f778-e92f-487c-9818-bdbe3438f30e",
+    "createdAt": 1567852244,
+    "deviceId": "5d737888aea17c30a056d759",
+    "type": "event",
+    "action": "setContactState",
+    "value": {
+      "state": "open"
+    },
+    "cause": {
+      "type": "PHYSICAL_INTERACTION"
+    }
+  },
+  "signature": {
+    "HMAC": "xxxxx"
   }
 }
-
 // means the sensor is closed and the two pieces of the sensor are in contact with each other
 {
-  "payloadVersion": 1,
-  "createdAt": 1562816501,
-  "messageId": "fca894e9-9c47-4447-9313-be4475508a8d",
-  "deviceId": "5d21d97cb904fb33f1342e28",
-  "type": "event",
-  "action": "setContactState",
-  "value": {
-    "state": "closed"
+  "header": {
+    "payloadVersion": 2,
+    "signatureVersion": 1
   },
-  "cause": {
-    "type": "PHYSICAL_INTERACTION"
+  "payload": {
+    "replyToken": "6ec1f778-e92f-487c-9818-bdbe3438f30e",
+    "createdAt": 1567852244,
+    "deviceId": "5d737888aea17c30a056d759",
+    "type": "event",
+    "action": "setContactState",
+    "value": {
+      "state": "closed"
+    },
+    "cause": {
+      "type": "PHYSICAL_INTERACTION"
+    }
+  },
+  "signature": {
+    "HMAC": "xxxxx"
   }
 }

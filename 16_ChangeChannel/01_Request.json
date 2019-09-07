@@ -1,17 +1,24 @@
 // alexa, change the channel to hbo on tv
-
-{  
-  "payloadVersion":1,
-  "messageId":"f713ec9b-6abb-419f-9f8a-76619655af28",
-  "clientId":"alexa-skill",
-  "createdAt":1564304186,
-  "deviceId":"5d3d31902bcf8047dcf4fc81",
-  "deviceAttributes":[ ],
-  "type":"request",
-  "action":"changeChannel",
-  "value":{  
-     "channel":{  
-        "name":"HBO"
-     }
-  }
+{
+   "header": {
+      "payloadVersion": 2,
+      "signatureVersion": 1
+   },
+   "payload": {
+      "replyToken": "6ec1f778-e92f-487c-9818-bdbe3438f30e",
+      "clientId": "alexa-skill",
+      "createdAt": 1567852244,
+      "deviceId": "5d737888aea17c30a056d759",
+      "deviceAttributes": [],
+      "type": "request",
+      "action": "changeChannel",
+      "value": {
+         "channel": {
+            "name": "HBO"
+         }
+      }
+   },
+   "signature": {
+      "HMAC": "xxx"
+   }
 }

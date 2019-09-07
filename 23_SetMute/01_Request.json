@@ -1,31 +1,44 @@
 // alexa, mute speaker
-
-{  
-   "payloadVersion":1,
-   "messageId":"0d86a8c7-0004-4d3d-92af-6460b7e092c5",
-   "clientId":"alexa-skill",
-   "createdAt":1564297218,
-   "deviceId":"5d3d31902bcf8047dcf4fc81",
-   "deviceAttributes":[ ],
-   "type":"request",
-   "action":"setMute",
-   "value":{  
-      "mute":true
+{
+   "header": {
+      "payloadVersion": 2,
+      "signatureVersion": 1
+   },
+   "payload": {
+      "replyToken": "6ec1f778-e92f-487c-9818-bdbe3438f30e",
+      "clientId": "alexa-skill",
+      "createdAt": 1567852244,
+      "deviceId": "5d737888aea17c30a056d759",
+      "deviceAttributes": [],
+      "type": "request",
+      "action": "setMute",
+      "value": {
+         "mute": true
+      }
+   },
+   "signature": {
+      "HMAC": "xxx"
    }
 }
-
 // alexa, unmute speaker
-
-{  
-   "payloadVersion":1,
-   "messageId":"0d86a8c7-0004-4d3d-92af-6460b7e092c5",
-   "clientId":"alexa-skill",
-   "createdAt":1564297218,
-   "deviceId":"5d3d31902bcf8047dcf4fc81",
-   "deviceAttributes":[ ],
-   "type":"request",
-   "action":"setMute",
-   "value":{  
-      "mute":false
+{
+   "header": {
+      "payloadVersion": 2,
+      "signatureVersion": 1
+   },
+   "payload": {
+      "replyToken": "6ec1f778-e92f-487c-9818-bdbe3438f30e",
+      "clientId": "alexa-skill",
+      "createdAt": 1567852244,
+      "deviceId": "5d737888aea17c30a056d759",
+      "deviceAttributes": [],
+      "type": "request",
+      "action": "setMute",
+      "value": {
+         "mute": false
+      }
+   },
+   "signature": {
+      "HMAC": "xxx"
    }
 }

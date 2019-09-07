@@ -1,15 +1,22 @@
 // alexa, next channel on tv
-
-{  
-   "payloadVersion":1,
-   "messageId":"88dc6acb-2c07-4b2a-b91e-3150062beca7",
-   "clientId":"alexa-skill",
-   "createdAt":1564304921,
-   "deviceId":"5d3d31902bcf8047dcf4fc81",
-   "deviceAttributes":[],
-   "type":"request",
-   "action":"skipChannels",
-   "value":{  
-      "channelCount":1
+{
+   "header": {
+      "payloadVersion": 2,
+      "signatureVersion": 1
+   },
+   "payload": {
+      "replyToken": "6ec1f778-e92f-487c-9818-bdbe3438f30e",
+      "clientId": "alexa-skill",
+      "createdAt": 1567852244,
+      "deviceId": "5d737888aea17c30a056d759",
+      "deviceAttributes": [],
+      "type": "request",
+      "action": "skipChannels",
+      "value": {
+         "channelCount": 1
+      }
+   },
+   "signature": {
+      "HMAC": "xxxx"
    }
 }

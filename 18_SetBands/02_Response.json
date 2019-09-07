@@ -1,20 +1,27 @@
 {
-  "payloadVersion": 1,
-  "success": true,
-  "message": "OK",
-  "createdAt": 1563268782,
-  "deviceId": "5d2d911008609a0534ad45cb",
-  "messageId": "b918747c-c725-45b0-8356-547bbdfba0d6",
-  "clientId": "alexa-skill",
-  "type": "response",
-  "action":"setBands",
-  "value":{  
+  "header": {
+    "payloadVersion": 2,
+    "signatureVersion": 1
+  },
+  "payload": {
+    "replyToken": "6ec1f778-e92f-487c-9818-bdbe3438f30e",
+    "success": true,
+    "message": "OK",
+    "createdAt": 1567860300,
+    "deviceId": "5d737888aea17c30a056d759",
+    "clientId": "alexa-skill",
+    "type": "response",
+    "action": "setBands",
+    "value": {
       "bands": [
-         {
-             "name": "BASS",
-             "level": -2
-         }
-     ]
+        {
+          "name": "BASS",
+          "level": -2
+        }
+      ]
+    }
+  },
+  "signature": {
+    "HMAC": "xxxxxxxx"
   }
 }
- 

@@ -1,15 +1,22 @@
 // alexa, change the input to hdim
-
-{  
-  "payloadVersion":1,
-  "messageId":"d3d5081e-a833-4a89-9cb9-2d11e53c4068",
-  "clientId":"alexa-skill",
-  "createdAt":1564299568,
-  "deviceId":"5d3d31902bcf8047dcf4fc81",
-  "deviceAttributes":[ ],
-  "type":"request",
-  "action":"selectInput",
-  "value":{  
-     "input":"HDIM"
+{
+  "header": {
+    "payloadVersion": 2,
+    "signatureVersion": 1
+  },
+  "payload": {
+    "replyToken": "6ec1f778-e92f-487c-9818-bdbe3438f30e",
+    "clientId": "alexa-skill",
+    "createdAt": 1567852244,
+    "deviceId": "5d737888aea17c30a056d759",
+    "deviceAttributes": [],
+    "type": "request",
+    "action": "selectInput",
+    "value": {
+      "input": "HDIM"
+    }
+  },
+  "signature": {
+    "HMAC": "jjrxa5b7fzXXml2+PxlfUYIUgLdHg33Cr2yWVuzlr/s="
   }
 }

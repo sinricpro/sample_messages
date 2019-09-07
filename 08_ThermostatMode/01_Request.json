@@ -1,15 +1,24 @@
 {
-  "payloadVersion": 1,
-  "messageId": "b918747c-c725-45b0-8356-547bbdfba0d6",
-  "clientId": "alexa-skill",
-  "createdAt": 1563268782,
-  "deviceId": "5d2d911008609a0534ad45cb",
-  "deviceAttributes": [],
-  "type": "request",
-  "action": "setThermostatMode",
-  "value": {
-    "thermostatMode": "AUTO"
-  }
+   "header": {
+      "payloadVersion": 2,
+      "signatureVersion": 1
+   },
+   "payload": {
+      "replyToken": "6ec1f778-e92f-487c-9818-bdbe3438f30e",
+      "clientId": "alexa-skill",
+      "createdAt": 1567852244,
+      "deviceId": "5d737888aea17c30a056d759",
+      "deviceAttributes": [],
+      "type": "request",
+      "action": "setThermostatMode",
+      "value": {
+         "thermostatMode": "AUTO"
+      }
+   },
+   "signature": {
+      "HMAC": "xxx"
+   }
 }
 
-Value can be "HEAT", "COOL" or "AUTO"
+Value can be "HEAT",
+"COOL" or "AUTO"

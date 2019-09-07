@@ -1,33 +1,45 @@
 // Note: The server will send "UNLOCKED" state to the server if you have not set the state yet.
-
 // alexa, lock front door
-
-{  
-    "payloadVersion":1,
-    "messageId":"34926abb-beb7-4e33-80e9-6a3c17f6f8d9",
-    "clientId":"alexa-skill",
-    "createdAt":1564320908,
-    "deviceId":"5d3d779c2bcf8047dcf4fc83",
-    "deviceAttributes":[],
-    "type":"request",
-    "action":"setLockState",
-    "value":{  
-      "state":"lock"
+{
+  "header": {
+    "payloadVersion": 2,
+    "signatureVersion": 1
+  },
+  "payload": {
+    "replyToken": "6ec1f778-e92f-487c-9818-bdbe3438f30e",
+    "clientId": "alexa-skill",
+    "createdAt": 1567852244,
+    "deviceId": "5d737888aea17c30a056d759",
+    "deviceAttributes": [],
+    "type": "request",
+    "action": "setLockState",
+    "value": {
+      "state": "lock"
     }
- }
-
- // alexa, unlock front door
-
-{  
-   "payloadVersion":1,
-   "messageId":"34926abb-beb7-4e33-80e9-6a3c17f6f8d9",
-   "clientId":"alexa-skill",
-   "createdAt":1564320908,
-   "deviceId":"5d3d779c2bcf8047dcf4fc83",
-   "deviceAttributes":[],
-   "type":"request",
-   "action":"setLockState",
-   "value":{  
-     "state":"unlock"
-   }
+  },
+  "signature": {
+    "HMAC": "xxx"
+  }
+}
+// alexa, unlock front door
+{
+  "header": {
+    "payloadVersion": 2,
+    "signatureVersion": 1
+  },
+  "payload": {
+    "replyToken": "6ec1f778-e92f-487c-9818-bdbe3438f30e",
+    "clientId": "alexa-skill",
+    "createdAt": 1567852244,
+    "deviceId": "5d737888aea17c30a056d759",
+    "deviceAttributes": [],
+    "type": "request",
+    "action": "setLockState",
+    "value": {
+      "state": "unlock"
+    }
+  },
+  "signature": {
+    "HMAC": "xxx"
+  }
 }

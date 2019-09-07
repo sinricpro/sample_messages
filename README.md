@@ -13,10 +13,13 @@ Any message with the "createdAt" timestamp older than 1 minute from the current 
  
 Message's payload must signed using Hmac sha256 since protocol version 2. Here is an example code how to generate the signature HMAC using nodejs.
  
+ ```
 function getSignature(message, appsecert) {
    return crypto.createHmac('sha256', appsecert).update(message).digest('base64');
 }
- 
+```
+
+
 complete code is available in signature-hmac-example.js
  
 Following devices are supported.

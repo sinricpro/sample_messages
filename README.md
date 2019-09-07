@@ -3,9 +3,11 @@
 This directory contains sample Sinric Pro messages in JSON. They can be used to test your project to see if you are receiving or responding to the server correctly.
  
 What is an *action*?
+
  Act of doing something using voice, app or website will generate an action message in the system. Eg: Alexa, turn on the tv will generate setPowerState action.
  
 What is an *event* ?
+
  Changing the device state physically should will raise an event to let the server know about the changes the user made.  Eg: pushing a button to turn on the device should send "setPowerState" event to let the server know.
 Unix epoch time used in all the messages are in seconds.
  

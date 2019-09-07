@@ -1,5 +1,4 @@
 const crypto = require('crypto');
-const header = { "payloadVersion": 2, "signatureVersion" : 1 };
 const APP_SECRET  = "a751abdb-e260-4bfd-a42c-60660561123d-3d8e6a30-0f39-42f0-a1ec-e47d47fb1392";
 
 function getSignature(message, appsecert) {
@@ -20,9 +19,10 @@ const payload = {
 }
 
 const HMAC = getSignature(JSON.stringify(payload), APP_SECRET);
-let signature = { "HMAC": HMAC };
+const signature = { "HMAC": HMAC };
+const header = { "payloadVersion": 2, "signatureVersion" : 1 };
 
-let event = {
+const event = {
   header: header,
   payload: payload,
   signature : signature
@@ -31,7 +31,8 @@ let event = {
 console.log(event)
 
 /*
-{ header: { 
+{ 
+  header: { 
    payloadVersion: 2, 
    signatureVersion: 1 
   },
@@ -43,8 +44,10 @@ console.log(event)
      deviceAttributes: [],
      type: 'request',
      action: 'setPowerState',
-     value: { state: 'On' } },
+     value: { state: 'On' } 
+  },
   signature: { 
-     HMAC: 'jjrxa5b7fzXXml2+PxlfUYIUgLdHg33Cr2yWVuzlr/s=' } 
-  }
+     HMAC: 'jjrxa5b7fzXXml2+PxlfUYIUgLdHg33Cr2yWVuzlr/s=' 
+  } 
+}
 */

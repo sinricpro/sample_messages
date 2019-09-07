@@ -21,9 +21,9 @@ function getSignature(message, appsecert) {
 }
 ```
 
+complete code is available here
+https://github.com/sinricpro/sample_messages/blob/master/signature-hmac-example.js
 
-complete code is available in signature-hmac-example.js
- 
 Following devices are supported.
 
 

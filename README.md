@@ -9,6 +9,7 @@ What is an *action*?
 What is an *event* ?
 
  Changing the device state physically should raise an event to let the server know about the changes the user made.  Eg: pushing a button to turn on the device should send "setPowerState" event to let the server know.
+ 
 Unix epoch time used in all the messages are in seconds.
  
 Any message with the "createdAt" timestamp older than 1 minute from the current time will be discarded to avoid network replay attacks.

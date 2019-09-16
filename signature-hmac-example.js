@@ -18,7 +18,8 @@ const payload = {
   }
 }
 
-const HMAC = getSignature(JSON.stringify(payload), APP_SECRET);
+const appSecretBuffer = new Buffer(APP_SECRET);
+const HMAC = getSignature(JSON.stringify(payload), appSecretBuffer.toString("base64"));
 const signature = { "HMAC": HMAC };
 const header = { "payloadVersion": 2, "signatureVersion" : 1 };
 

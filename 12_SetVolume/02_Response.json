@@ -4,18 +4,18 @@
       "signatureVersion": 1
    },
    "payload": {
-      "replyToken": "6ec1f778-e92f-487c-9818-bdbe3438f30e",
-      "success": true,
-      "message": "OK",
+      "action": "setVolume",
+      "clientId": "alexa-skill",
       "createdAt": 1567860300,
       "deviceId": "5d737888aea17c30a056d759",
-      "clientId": "alexa-skill",
+      "message": "OK",
+      "replyToken": "6ec1f778-e92f-487c-9818-bdbe3438f30e",
+      "success": true,
       "type": "response",
-      "action": "setVolume",
       "value": {
-         "volume": 25
+          "volume": 25
       }
-   },
+  },
    "signature": {
       "HMAC": "xxxxxxxx"
    }

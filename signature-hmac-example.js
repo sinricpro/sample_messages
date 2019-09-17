@@ -6,8 +6,21 @@ function getSignature(message, appsecert) {
 }
 
 // Remove new line breaks and spaces 
-const payload = '{"replyToken":"6ec1f778-e92f-487c-9818-bdbe3438f30e","clientId":"alexa-skill","createdAt":1567852244,"deviceId":"5d737888aea17c30a056d759","deviceAttributes":[],"type":"request","action":"setPowerState","value":{"state":"On"}}';
-const HMAC = getSignature(payload, APP_SECRET);
+const payload = {
+    action:"setPowerState",
+    clientId:"alexa-skill",
+    createdAt:1567852244,
+    deviceAttributes:[],
+    deviceId:"5d737888aea17c30a056d759",
+    replyToken:"6ec1f778-e92f-487c-9818-bdbe3438f30e",
+    type:"request",
+    value:{
+    state:"On"
+        }
+    }
+
+
+const HMAC = getSignature(JSON.stringify(payload), APP_SECRET);
 const signature = { "HMAC": HMAC };
 const header = { "payloadVersion": 2, "signatureVersion" : 1 };
 

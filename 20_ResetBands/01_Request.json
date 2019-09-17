@@ -5,13 +5,13 @@
         "signatureVersion": 1
     },
     "payload": {
-        "replyToken": "6ec1f778-e92f-487c-9818-bdbe3438f30e",
+        "action": "resetBands",
         "clientId": "alexa-skill",
         "createdAt": 1567852244,
-        "deviceId": "5d737888aea17c30a056d759",
         "deviceAttributes": [],
+        "deviceId": "5d737888aea17c30a056d759",
+        "replyToken": "6ec1f778-e92f-487c-9818-bdbe3438f30e",
         "type": "request",
-        "action": "resetBands",
         "value": {
             "bands": [
                 {

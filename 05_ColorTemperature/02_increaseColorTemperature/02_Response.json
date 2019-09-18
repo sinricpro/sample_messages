@@ -1,22 +1,22 @@
 {
-  "header": {
-    "payloadVersion": 2,
-    "signatureVersion": 1
-  },
-  "payload": {
-    "replyToken": "6ec1f778-e92f-487c-9818-bdbe3438f30e",
-    "success": true,
-    "message": "OK",
-    "createdAt": 1567860300,
-    "deviceId": "5d737888aea17c30a056d759",
-    "clientId": "alexa-skill",
-    "type": "response",
-    "action": "increaseColorTemperature",
-    "value": {
-      "colorTemperature": 2400
+    "header": {
+        "payloadVersion": 2,
+        "signatureVersion": 1
+    },
+    "payload": {
+        "action": "increaseColorTemperature",
+        "clientId": "alexa-skill",
+        "createdAt": 1567860300,
+        "deviceId": "5d737888aea17c30a056d759",
+        "message": "OK",
+        "replyToken": "6ec1f778-e92f-487c-9818-bdbe3438f30e",
+        "success": true,
+        "type": "response",
+        "value": {
+            "colorTemperature": 2400
+        }
+    },
+    "signature": {
+        "HMAC": "xxxxxxxx"
     }
-  },
-  "signature": {
-    "HMAC": "xxxxxxxx"
-  }
 }

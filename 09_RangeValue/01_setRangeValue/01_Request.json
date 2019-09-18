@@ -1,23 +1,23 @@
 // alexa, set the air speed on ac to maximum
 // alexa, set the ac speed to 2
 {
-   "header": {
-      "payloadVersion": 2,
-      "signatureVersion": 1
-   },
-   "payload": {
-      "replyToken": "6ec1f778-e92f-487c-9818-bdbe3438f30e",
-      "clientId": "alexa-skill",
-      "createdAt": 1567852244,
-      "deviceId": "5d737888aea17c30a056d759",
-      "deviceAttributes": [],
-      "type": "request",
-      "action": "setRangeValue",
-      "value": {
-         "rangeValue": 3
-      }
-   },
-   "signature": {
-      "HMAC": "xxx"
-   }
+    "header": {
+        "payloadVersion": 2,
+        "signatureVersion": 1
+    },
+    "payload": {
+        "action": "setRangeValue",
+        "clientId": "alexa-skill",
+        "createdAt": 1567852244,
+        "deviceAttributes": [],
+        "deviceId": "5d737888aea17c30a056d759",
+        "replyToken": "6ec1f778-e92f-487c-9818-bdbe3438f30e",
+        "type": "request",
+        "value": {
+            "rangeValue": 3
+        }
+    },
+    "signature": {
+        "HMAC": "xxx"
+    }
 }

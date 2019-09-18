@@ -1,50 +1,51 @@
 // alexa, set the thermostat to 68 degrees
 {
-   "header": {
-      "payloadVersion": 2,
-      "signatureVersion": 1
-   },
-   "payload": {
-      "replyToken": "6ec1f778-e92f-487c-9818-bdbe3438f30e",
-      "clientId": "alexa-skill",
-      "createdAt": 1567852244,
-      "deviceId": "5d737888aea17c30a056d759",
-      "deviceAttributes": [],
-      "type": "request",
-      "action": "targetTemperature",
-      "value": {
-         "temperature": 68
-      }
-   },
-   "signature": {
-      "HMAC": "xxxx"
-   }
+    "header": {
+        "payloadVersion": 2,
+        "signatureVersion": 1
+    },
+    "payload": {
+        "action": "targetTemperature",
+        "clientId": "alexa-skill",
+        "createdAt": 1567852244,
+        "deviceAttributes": [],
+        "deviceId": "5d737888aea17c30a056d759",
+        "replyToken": "6ec1f778-e92f-487c-9818-bdbe3438f30e",
+        "type": "request",
+        "value": {
+            "temperature": 68
+        }
+    },
+    "signature": {
+        "HMAC": "xxxx"
+    }
 }
+
 // targetTemperature request with optional shedule
 // alexa, set the thermostat to 25 degrees for 4 hours.
 {
-   "header": {
-      "payloadVersion": 2,
-      "signatureVersion": 1
-   },
-   "payload": {
-      "replyToken": "6ec1f778-e92f-487c-9818-bdbe3438f30e",
-      "clientId": "alexa-skill",
-      "createdAt": 1567852244,
-      "deviceId": "5d737888aea17c30a056d759",
-      "deviceAttributes": [],
-      "type": "request",
-      "action": "targetTemperature",
-      "value": {
-         "temperature": 25,
-         "schedule": {
-            "duration": "PT4H"
-         }
-      }
-   },
-   "signature": {
-      "HMAC": "xxxx"
-   }
+    "header": {
+        "payloadVersion": 2,
+        "signatureVersion": 1
+    },
+    "payload": {
+        "action": "targetTemperature",
+        "clientId": "alexa-skill",
+        "createdAt": 1567852244,
+        "deviceAttributes": [],
+        "deviceId": "5d737888aea17c30a056d759",
+        "replyToken": "6ec1f778-e92f-487c-9818-bdbe3438f30e",
+        "type": "request",
+        "value": {
+            "schedule": {
+                "duration": "PT4H"
+            },
+            "temperature": 25
+        }
+    },
+    "signature": {
+        "HMAC": "xxxx"
+    }
 }
 
  

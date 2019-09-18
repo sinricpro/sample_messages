@@ -1,45 +1,45 @@
 {
-  "header": {
-    "payloadVersion": 2,
-    "signatureVersion": 1
-  },
-  "payload": {
-    "replyToken": "6ec1f778-e92f-487c-9818-bdbe3438f30e",
-    "createdAt": 1567852244,
-    "deviceId": "5d737888aea17c30a056d759",
-    "type": "event",
-    "action": "motion",
-    "value": {
-      "state": "detected"
+    "header": {
+        "payloadVersion": 2,
+        "signatureVersion": 1
     },
-    "cause": {
-      "type": "PHYSICAL_INTERACTION"
+    "payload": {
+        "action": "motion",
+        "cause": {
+            "type": "PHYSICAL_INTERACTION"
+        },
+        "createdAt": 1567852244,
+        "deviceId": "5d737888aea17c30a056d759",
+        "replyToken": "6ec1f778-e92f-487c-9818-bdbe3438f30e",
+        "type": "event",
+        "value": {
+            "state": "detected"
+        }
+    },
+    "signature": {
+        "HMAC": "xxxxx"
     }
-  },
-  "signature": {
-    "HMAC": "xxxxx"
-  }
 }
 
 {
-  "header": {
-    "payloadVersion": 2,
-    "signatureVersion": 1
-  },
-  "payload": {
-    "replyToken": "6ec1f778-e92f-487c-9818-bdbe3438f30e",
-    "createdAt": 1567852244,
-    "deviceId": "5d737888aea17c30a056d759",
-    "type": "event",
-    "action": "motion",
-    "value": {
-      "state": "notDetected"
+    "header": {
+        "payloadVersion": 2,
+        "signatureVersion": 1
     },
-    "cause": {
-      "type": "PHYSICAL_INTERACTION"
+    "payload": {
+        "action": "motion",
+        "cause": {
+            "type": "PHYSICAL_INTERACTION"
+        },
+        "createdAt": 1567852244,
+        "deviceId": "5d737888aea17c30a056d759",
+        "replyToken": "6ec1f778-e92f-487c-9818-bdbe3438f30e",
+        "type": "event",
+        "value": {
+            "state": "notDetected"
+        }
+    },
+    "signature": {
+        "HMAC": "xxxxx"
     }
-  },
-  "signature": {
-    "HMAC": "xxxxx"
-  }
 }

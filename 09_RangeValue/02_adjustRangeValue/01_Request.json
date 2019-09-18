@@ -1,22 +1,22 @@
 // alexa, turn down the fan speed
 {
-   "header": {
-      "payloadVersion": 2,
-      "signatureVersion": 1
-   },
-   "payload": {
-      "replyToken": "6ec1f778-e92f-487c-9818-bdbe3438f30e",
-      "clientId": "alexa-skill",
-      "createdAt": 1567852244,
-      "deviceId": "5d737888aea17c30a056d759",
-      "deviceAttributes": [],
-      "type": "request",
-      "action": "adjustRangeValue",
-      "value": {
-         "rangeValueDelta": -1
-      }
-   },
-   "signature": {
-      "HMAC": "xxx"
-   }
+    "header": {
+        "payloadVersion": 2,
+        "signatureVersion": 1
+    },
+    "payload": {
+        "action": "adjustRangeValue",
+        "clientId": "alexa-skill",
+        "createdAt": 1567852244,
+        "deviceAttributes": [],
+        "deviceId": "5d737888aea17c30a056d759",
+        "replyToken": "6ec1f778-e92f-487c-9818-bdbe3438f30e",
+        "type": "request",
+        "value": {
+            "rangeValueDelta": -1
+        }
+    },
+    "signature": {
+        "HMAC": "xxx"
+    }
 }

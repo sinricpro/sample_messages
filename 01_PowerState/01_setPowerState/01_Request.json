@@ -1,45 +1,45 @@
 // Switch On
 {
-   "header": {
-      "payloadVersion": 2,
-      "signatureVersion": 1
-   },
-   "payload": {
-      "replyToken": "6ec1f778-e92f-487c-9818-bdbe3438f30e",
-      "clientId": "alexa-skill",
-      "createdAt": 1567852244,
-      "deviceId": "5d737888aea17c30a056d759",
-      "deviceAttributes": [],
-      "type": "request",
-      "action": "setPowerState",
-      "value": {
-         "state": "On"
-      }
-   },
-   "signature": {
-      "HMAC": "jjrxa5b7fzXXml2+PxlfUYIUgLdHg33Cr2yWVuzlr/s="
-   }
+    "header": {
+        "payloadVersion": 2,
+        "signatureVersion": 1
+    },
+    "payload": {
+        "action": "setPowerState",
+        "clientId": "alexa-skill",
+        "createdAt": 1567852244,
+        "deviceAttributes": [],
+        "deviceId": "5d737888aea17c30a056d759",
+        "replyToken": "6ec1f778-e92f-487c-9818-bdbe3438f30e",
+        "type": "request",
+        "value": {
+            "state": "On"
+        }
+    },
+    "signature": {
+        "HMAC": "jjrxa5b7fzXXml2+PxlfUYIUgLdHg33Cr2yWVuzlr/s="
+    }
 }
 
 // Switch Off
 {
-   "header": {
-      "payloadVersion": 2,
-      "signatureVersion": 1
-   },
-   "payload": {
-      "replyToken": "66196a13-30dd-40e3-bf5a-d2992816361c",
-      "clientId": "alexa-skill",
-      "createdAt": 1567852277,
-      "deviceId": "5d737888aea17c30a056d759",
-      "deviceAttributes": [],
-      "type": "request",
-      "action": "setPowerState",
-      "value": {
-         "state": "Off"
-      }
-   },
-   "signature": {
-      "HMAC": "kBdQJxRsnBfPqSuiLXoorvljEUBTdfMOA+QW7aZsaDE="
-   }
+    "header": {
+        "payloadVersion": 2,
+        "signatureVersion": 1
+    },
+    "payload": {
+        "action": "setPowerState",
+        "clientId": "alexa-skill",
+        "createdAt": 1567852277,
+        "deviceAttributes": [],
+        "deviceId": "5d737888aea17c30a056d759",
+        "replyToken": "66196a13-30dd-40e3-bf5a-d2992816361c",
+        "type": "request",
+        "value": {
+            "state": "Off"
+        }
+    },
+    "signature": {
+        "HMAC": "kBdQJxRsnBfPqSuiLXoorvljEUBTdfMOA+QW7aZsaDE="
+    }
 }

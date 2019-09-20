@@ -6,20 +6,7 @@ function getSignature(message, appsecert) {
 }
 
 // Remove new line breaks and spaces 
-const payload = {
-    action:"setPowerState",
-    clientId:"alexa-skill",
-    createdAt:1567852244,
-    deviceAttributes:[],
-    deviceId:"5d737888aea17c30a056d759",
-    replyToken:"6ec1f778-e92f-487c-9818-bdbe3438f30e",
-    type:"request",
-    value:{
-    state:"On"
-        }
-    }
-
-
+const payload = {action:"setPowerState",clientId:"alexa-skill",createdAt:1567852244,deviceAttributes:[],deviceId:"5d737888aea17c30a056d759",replyToken:"6ec1f778-e92f-487c-9818-bdbe3438f30e",type:"request",value:{state:"On"}}
 const HMAC = getSignature(JSON.stringify(payload), APP_SECRET);
 const signature = { "HMAC": HMAC };
 const header = { "payloadVersion": 2, "signatureVersion" : 1 };
@@ -33,23 +20,16 @@ const event = {
 console.log(event)
 
 /*
-{ 
-  header: { 
-   payloadVersion: 2, 
-   signatureVersion: 1 
-  },
-  payload: { 
-     replyToken: '6ec1f778-e92f-487c-9818-bdbe3438f30e',
+{ header: { payloadVersion: 2, signatureVersion: 1 },
+  payload:
+   { action: 'setPowerState',
      clientId: 'alexa-skill',
      createdAt: 1567852244,
-     deviceId: '5d737888aea17c30a056d759',
      deviceAttributes: [],
+     deviceId: '5d737888aea17c30a056d759',
+     replyToken: '6ec1f778-e92f-487c-9818-bdbe3438f30e',
      type: 'request',
-     action: 'setPowerState',
-     value: { state: 'On' } 
-  },
-  signature: { 
-     HMAC: 'jjrxa5b7fzXXml2+PxlfUYIUgLdHg33Cr2yWVuzlr/s=' 
-  } 
-}
+     value: { state: 'On' } },
+  signature:
+   { HMAC: 'e5a479747b953ce6f5ad8ad623349bc2a257ea658c947d4496e4363e5eec3c38' } }
 */

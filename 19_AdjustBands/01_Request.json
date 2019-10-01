@@ -26,3 +26,5 @@
         "HMAC": "xxx"
     }
 }
+
+// NOTE: bands.levelDelta is optional

@@ -139,7 +139,6 @@ Following devices are supported.
        - mediaControl
        - selectInput
        - changeChannel
-       - skipChannels
 
 12. **Smart Speaker**
      - *actions*

@@ -5,7 +5,7 @@
         "signatureVersion": 1
     },
     "payload": {
-        "action": "adjustTemperature",
+        "action": "adjustTargetTemperature",
         "clientId": "alexa-skill",
         "createdAt": 1567852244,
         "deviceAttributes": [],

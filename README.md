@@ -170,7 +170,7 @@ Following devices are supported.
 
 01. **Timestamp**  
     - *actions*
-        - requestTimestamp  
+        - getTimestamp  
       
 ## License
 

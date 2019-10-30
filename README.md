@@ -166,6 +166,12 @@ Following devices are supported.
      - *events* :
        - setLockState 
 
+### Client-Sided requests
+
+01. **Timestamp**  
+    - *actions*
+        - requestTimestamp  
+      
 ## License
 
 The documents in this project are licensed under the CC-BY-SA 4.0 License, which

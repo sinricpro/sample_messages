@@ -1,0 +1,17 @@
+// Request timestamp from server
+{
+  "header": {
+    "payloadVersion": 2,
+    "signatureVersion": 1
+  },
+  "payload": {
+    "action": "getTimestamp",
+    "createdAt": 0,
+    "deviceId": "5db9be19f1a31967a02b3d96",
+    "replyToken": "e0dff57f-4e7a-4c67-966b-515ba4738e32",
+    "type": "request"
+  },
+  "signature": {
+    "HMAC": "EyHbgRcVz84diXZa/7kKA/RbSvoVxqfZeyJ7UKvDWFI="
+  }
+}

@@ -1,0 +1,18 @@
+// server response for timestamp
+{
+  "header": {
+    "payloadVersion": 2,
+    "signatureVersion": 1
+  },
+  "payload": {
+    "action": "getTimestamp",
+    "replyToken": "e0dff57f-4e7a-4c67-966b-515ba4738e32",
+    "type": "response",
+    "value": {
+      "timestamp": 1572464438
+    }
+  },
+  "signature": {
+    "HMAC": "nCSWCfCp6ui3YJ5Obh6TLxbgYaImHMm4QH7o1h3QhzM="
+  }
+}

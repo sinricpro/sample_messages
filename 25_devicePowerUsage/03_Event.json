@@ -1,0 +1,27 @@
+{
+  "header": {
+    "payloadVersion": 2,
+    "signatureVersion": 1
+  },
+  "payload": {
+    "action": "devicePowerUsage",
+    "cause": {
+      "type": "PERIODIC_POLL"
+    },
+    "createdAt": 1577574225,
+    "deviceId": "5e0295654b9bf96b07540497",
+    "type": "event",
+    "value": {
+	  "startTime": 1579967967,	
+      "voltage": 226,
+      "current": 11.677,
+      "power": 2639,
+      "apparentPower": 2645,
+      "reactivePower": 288,
+      "factor": 0.99
+    }
+  },
+  "signature": {
+    "HMAC": "5ZYHkxV5TpG/BqAGKwqIw+WVnUCxACF8xpY9NIsM55Q="
+  }
+}

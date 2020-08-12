@@ -1,0 +1,24 @@
+{
+   "header":{
+      "payloadVersion":2,
+      "signatureVersion":1
+   },
+   "payload":{
+      "action":"airQuality",
+      "cause":{
+         "type":"PERIODIC_POLL"
+      },
+      "createdAt":1597215302,
+      "deviceId":"5f28d8972fcee37cf8f7abcf",
+      "replyToken":"9923ec2f-9b26-4883-ae18-7e04afd79190",
+      "type":"event",
+      "value":{
+         "pm1":0,
+         "pm2_5":21,
+         "pm10":0
+      }
+   },
+   "signature":{
+      "HMAC":"/BWU5pz5uCWOu1L41I1sXTq31j/PBPweLgTMxfoZ8B0="
+   }
+}

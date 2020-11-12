@@ -13,7 +13,8 @@
     "replyToken": "6ec1f778-e92f-487c-9818-bdbe3438f30e",
     "type": "request",
     "value": {
-        "volume": -20
+        "volume": -20,
+        "volumeDefault": false
     }
 },
   "signature": {

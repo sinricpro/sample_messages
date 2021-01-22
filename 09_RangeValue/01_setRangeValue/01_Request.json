@@ -21,3 +21,28 @@
         "HMAC": "xxx"
     }
 }
+
+// with instance id
+
+{
+   "header":{
+      "payloadVersion":2,
+      "signatureVersion":1
+   },
+   "payload":{
+      "action":"setRangeValue",
+      "clientId":"portal",
+      "createdAt":1611312356,
+      "deviceAttributes":[],
+      "deviceId":"600a886b4dbae42e807dfbd9",
+      "instanceId":"Blind.Lift",
+      "replyToken":"67f67862-9f9b-4151-8a0c-865a7bf30062",
+      "type":"request",
+      "value":{
+         "rangeValue":75
+      }
+   },
+   "signature":{
+      "HMAC":"He3cB89RGaK9VHpvZ+bSuLwriOw0j/i0/v6YLHH646Y="
+   }
+}

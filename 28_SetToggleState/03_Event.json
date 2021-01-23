@@ -1,0 +1,24 @@
+{
+    "header": {
+        "payloadVersion": 2,
+        "signatureVersion": 1
+    },
+    "payload": {
+        "action": "setToggleState",
+        "cause": {
+            "type": "PHYSICAL_INTERACTION"
+        },
+        "createdAt": 1567852244,
+        "deviceId": "600bfade51d9265790cb9fc0",
+        "replyToken": "5cedfa50-0619-418e-b06a-46ac1e8022d4",
+        "type": "event",
+        "value": {
+            "state": "Off"
+        }
+    },
+    "signature": {
+        "HMAC": "xxxxx"
+    }
+}
+
+

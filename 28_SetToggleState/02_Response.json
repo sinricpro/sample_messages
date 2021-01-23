@@ -1,0 +1,22 @@
+{
+    "header": {
+        "payloadVersion": 2,
+        "signatureVersion": 1
+    },
+    "payload": {
+        "action": "setToggleState",
+        "clientId": "portal",
+        "createdAt": 1567860300,
+        "deviceId": "600bfade51d9265790cb9fc0",
+        "message": "OK",
+        "replyToken": "5cedfa50-0619-418e-b06a-46ac1e8022d4",
+        "success": true,
+        "type": "response",
+        "value": {
+            "state": "Off"
+        }
+    },
+    "signature": {
+        "HMAC": "xxxxxxxx"
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "header": {
+        "payloadVersion": 2,
+        "signatureVersion": 1
+    },
+    "payload": {
+        "action": "setPercentage",
+        "cause": {
+            "type": "PHYSICAL_INTERACTION"
+        },
+        "createdAt": 1567852244,
+        "deviceId": "600bf704a4a6a5463096b633",
+        "replyToken": "d20d957d-6213-4334-ba12-b04efe0d0b84",
+        "type": "event",
+        "value": {
+            "keystroke": "UP"
+        }
+    },
+    "signature": {
+        "HMAC": "xxxxx"
+    }
+}
+
+

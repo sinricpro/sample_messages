@@ -15,7 +15,7 @@
         "value": {
             "bands": [
                 {
-                    "level": -2,
+                    "value": -2,
                     "name": "BASS"
                 }
             ]

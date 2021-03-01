@@ -15,15 +15,15 @@
     "value": {
         "bands": [
             {
-                "level": 0,
+                "value": 0,
                 "name": "BASS"
             },
             {
-                "level": 0,
+                "value": 0,
                 "name": "MIDRANGE"
             },
             {
-                "level": 0,
+                "value": 0,
                 "name": "TREBLE"
             }
         ]

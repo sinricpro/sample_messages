@@ -1,4 +1,7 @@
-// alexa, next channel on tv
+/* 
+   channel up
+*/
+
 {
    "header": {
       "payloadVersion": 2,
@@ -18,5 +21,30 @@
   },
    "signature": {
       "HMAC": "xxxx"
+   }
+}
+
+/* 
+   channel down
+*/
+
+{
+   "header":{
+      "payloadVersion":2,
+      "signatureVersion":1
+   },
+   "payload":{
+      "action":"skipChannels",
+      "clientId":"alexa-skill",
+      "createdAt":1669044616,
+      "deviceId":"6370ce239c9458f2c9572d4c",
+      "replyToken":"fa01b022-0f7e-496c-b193-7667c97824cb",
+      "type":"request",
+      "value":{
+         "channelCount":-1
+      }
+   },
+   "signature":{
+      "HMAC":"xxxxx"
    }
 }

@@ -1,0 +1,17 @@
+{
+   "header":{
+      "payloadVersion":2,
+      "signatureVersion":1
+   },
+   "payload":{
+      "action":"getWebRTCAnswer",
+      "clientId":"portal",
+      "createdAt":1688693387,
+      "deviceId":"64a6837728b78b7493da8403",
+      "replyToken":"1c8c9088-7264-4a5a-9a8e-fb29c80c28f8",
+      "type":"request",
+      "value":{
+         "offer":"<sdp offer in base64>"
+      }
+   }
+}

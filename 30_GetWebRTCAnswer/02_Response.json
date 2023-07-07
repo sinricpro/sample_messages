@@ -1,0 +1,22 @@
+{
+    "header":{
+       "payloadVersion":2,
+       "signatureVersion":1
+    },
+    "payload":{
+       "action":"getWebRTCAnswer",
+       "clientId":"portal",
+       "createdAt":1688693568,
+       "deviceId":"64a6837728b78b7493da8403",
+       "message":"OK",
+       "replyToken":"8e0da8ba-00bc-4432-8af4-c250e20f59b3",
+       "success":true,
+       "type":"response",
+       "value":{
+          "answer":"<answer in base64>"
+       }
+    },
+    "signature":{
+       "HMAC":"5gG3mjvNSiZ77h7WJqi6A/WHSSyTGmqArB3D1vcy0mo="
+    }
+ }

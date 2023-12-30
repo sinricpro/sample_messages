@@ -20,3 +20,5 @@
     "HMAC": "xxxxx"
   }
 }
+
+Note: Garage Door: {"mode" : "Open"} and {"mode" : "Close"}

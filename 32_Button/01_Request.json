@@ -4,7 +4,7 @@
       "signatureVersion":1
    },
    "payload":{
-      "action":"sendButtonState",
+      "action":"setButtonState",
       "clientId":"portal",
       "createdAt":1688693994,
       "deviceId":"64a76cb728b78b7493da8943",

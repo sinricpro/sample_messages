@@ -1,0 +1,20 @@
+{
+   "header":{
+      "payloadVersion":2,
+      "signatureVersion":1
+   },
+   "payload":{
+      "action":"sendButtonState",
+      "clientId":"portal",
+      "createdAt":1688693994,
+      "deviceId":"64a76cb728b78b7493da8943",
+      "replyToken":"39d8e3a7-c25b-4b80-a9bb-f403fdd750bc",
+      "type":"request",
+      "value":{
+         "state":"pressed"
+      }
+   },
+   "signature":{
+      "HMAC":"dfZnak8OWgXv5yWWxyd+caNDYGwSqcIVpVH82FBYXFA="
+   }
+}

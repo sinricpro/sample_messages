@@ -18,3 +18,5 @@
       "HMAC":"dfZnak8OWgXv5yWWxyd+caNDYGwSqcIVpVH82FBYXFA="
    }
 }
+
+state can be singlePress, doublePress, longPress

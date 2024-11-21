@@ -1,0 +1,20 @@
+{
+    "header": {
+        "payloadVersion": 2,
+        "signatureVersion": 1
+    },
+    "payload": {
+        "action": "cameraSnapshot",
+        "clientId": "portal",
+        "createdAt": 1567860300,
+        "deviceId": "5d737888aea17c30a056d759",
+        "message": "OK",
+        "replyToken": "6ec1f778-e92f-487c-9818-bdbe3438f30e",
+        "success": true,
+        "type": "response",
+        "value": {}
+    },
+    "signature": {
+        "HMAC": "xxxxxxxx"
+    }
+}

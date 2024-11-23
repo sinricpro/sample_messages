@@ -4,7 +4,7 @@
         "signatureVersion": 1
     },
     "payload": {
-        "action": "cameraSnapshot",
+        "action": "getSnapshot",
         "clientId": "portal",
         "createdAt": 1567860300,
         "deviceId": "5d737888aea17c30a056d759",

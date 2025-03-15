@@ -1,0 +1,19 @@
+{
+    "header": {
+        "payloadVersion": 2,
+        "signatureVersion": 1
+    },
+    "payload": {
+        "action": "setSetting",
+        "clientId": "portal",
+        "createdAt": 1567852244,
+        "deviceAttributes": [],
+        "deviceId": "5d737888aea17c30a056d759",
+        "replyToken": "6ec1f778-e92f-487c-9818-bdbe3438f30e",
+        "type": "request",
+        "value": { "id":"SettingId","value":"Value 3" }
+    },
+    "signature": {
+        "HMAC": "xxx"
+    }
+}

@@ -1,0 +1,21 @@
+{
+   "header":{
+      "payloadVersion":2,
+      "signatureVersion":1
+   },
+   "payload":{
+      "action":"pushNotification",
+      "cause":{
+         "type":"PHYSICAL_INTERACTION"
+      },
+      "createdAt":1763392667,
+      "deviceId":"689bd7afbc814fb7256bc978",
+      "type":"event",
+      "value":{
+         "alert":"Door/window is now open"
+      }
+   },
+   "signature":{
+      "HMAC":"b/T/ZRm95Z4//n+GEmsfyELSIFceDKGTNZ/TdY2rMpw="
+   }
+}

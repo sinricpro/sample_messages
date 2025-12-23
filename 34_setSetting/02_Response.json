@@ -1,0 +1,23 @@
+{
+   "header":{
+      "payloadVersion":2,
+      "signatureVersion":1
+   },
+   "payload":{
+      "action":"setSetting",
+      "clientId":"portal",
+      "createdAt":1766462375,
+      "deviceId":"694a014761dd1573eeacdc55",
+      "message":"OK",
+      "replyToken":"fd725574-c2c3-4bdc-be69-37674744ac4f",
+      "success":true,
+      "type":"response",
+      "value":{
+         "id":"id_tilt",
+         "value":39
+      }
+   },
+   "signature":{
+      "HMAC":"0KXBVVX/7OB7+kN48vBvUCMtKIxGSdVVvwnyFFSuSGI="
+   }
+}
